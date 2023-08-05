@@ -7,7 +7,7 @@ shareBtn.addEventListener('click', event => {
     // Browser supports native share api
     navigator.share({
       text: 'Please read this great article: ',
-      url: ' https://abhishek7318.github.io/earnMoney.github.io/'
+      url: 'https://www.google.com/'
     }).then(() => {
       console.log('Thanks for sharing!');
     })
