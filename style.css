@@ -6,6 +6,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    padding-bottom: 100px;
+}
 header{
     background-color: #2FF933;
     height: 170px;
@@ -69,7 +72,7 @@ a{
     border-radius: 5px;
     margin-right: 14px;
     margin-top: 10px;
-    box-shadow: 0 2px 2px green,0 3px 15px  greenyellow;
+box-shadow: 0 2px 2px green,0 3px 15px  greenyellow;    
 }
 .point{
     background-color: red;
@@ -86,16 +89,38 @@ a{
     border-radius: 10px;
 }
 .imgshadow{
-    box-shadow: 0 5px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 15px;
     position: relative;
     top: 30px;
-    bottom: 30px;
+    box-shadow: 0 2px 2px green,0 7px 15px  greenyellow;
+}
+.img{
+    border-radius: 15px;
+    position: relative;
+    top: 55px;
+    box-shadow: 0 2px 2px green,0 7px 15px  greenyellow;
+}
+.img1{
+    border-radius: 15px;
+    position: relative;
+    top: 75px;
+    box-shadow: 0 2px 2px green,0 7px 15px  greenyellow;
 }
 .right{
    font-size: 25px;
    text-align: center;
    position: relative;
    bottom: 90px;
+}
+nav{
+    background-color: #2FF933;
+    text-align: center;
+    padding: 10px 0px;
+    color: rgb(242, 60, 60);
+    font-size: 25px;
+}
+.pra{
+    text-align: center;
 }
 @media(min-width:300px){
     .card{
