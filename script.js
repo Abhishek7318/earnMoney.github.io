@@ -6,8 +6,8 @@ shareBtn.addEventListener('click', event => {
   if (navigator.share) {
     // Browser supports native share api
     navigator.share({
-      text: 'Please read this great article: ',
-      url: 'https://www.google.com/'
+      text: 'Work From Home earn money open this: ',
+      url:'https://abhishek7318.github.io/earnMoney.github.io/'
     }).then(() => {
       console.log('Thanks for sharing!');
     })
